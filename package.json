@@ -4,8 +4,7 @@
 	"description": "stylus to wxss",
     "version": "0.0.1",
     "publisher": "magic-rui",
-    "icon": "stylus-logo.png",
-    "git":"https://github.com/Magic-zhu/vscode-plugin-easy-WxStylus.git",
+    "repository":"https://github.com/Magic-zhu/vscode-plugin-easy-WxStylus.git",
 	"engines": {
 		"vscode": "^1.47.0"
 	},

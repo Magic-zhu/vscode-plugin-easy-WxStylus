@@ -4,7 +4,7 @@ a pure plugin
 
 the plugin is working when you see this 
 
-![example](./001.png)
+![example](https://github.com/Magic-zhu/vscode-plugin-easy-WxStylus/blob/master/001.png)
 
 ## Features
 

@@ -2,7 +2,7 @@
 	"name": "vscode-plugin-easy-wxstylus",
 	"displayName": "Easy WxStylus",
 	"description": "stylus to wxss",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "magic-rui",
     "repository":"https://github.com/Magic-zhu/vscode-plugin-easy-WxStylus.git",
 	"engines": {

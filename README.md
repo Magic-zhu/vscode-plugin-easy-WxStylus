@@ -4,18 +4,18 @@ a pure plugin
 
 the plugin is working when you see this 
 
-![example](https://github.com/Magic-zhu/vscode-plugin-easy-WxStylus/blob/master/001.png)
+![example](./001.png)
 
 ## Features
 
-[X] convert stylus file to wxss when on save
++ convert stylus file to wxss when on save
 
 ## Known Issues
 
-performance is not good
+when @import need to write absolute path (will fix in 0.0.3)
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 enjoy stylus
 

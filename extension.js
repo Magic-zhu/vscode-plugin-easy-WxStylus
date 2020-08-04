@@ -12,7 +12,8 @@ function compile(filePath){
             let str = data.toString()
             stylus.render(str,function(err,css){
                 if(err){
-                    vscode.window.showErrorMessage(err)
+                    console.log(err)
+                    vscode.window.showErrorMessage('something wrong when @compile')
                     reject(err)
                 }else{
                     resolve(css)
@@ -30,7 +31,7 @@ function createFile(filePath,data){
             if(!err){
                 resolve()
             }else{
-                vscode.window.showErrorMessage(err)
+                vscode.window.showErrorMessage('something wrong when @createFile')
                 reject(err)
             }
         })
@@ -50,7 +51,10 @@ function activate(context) {
                 return createFile(doc.fileName,data)
             })
             .then(()=>{
-                vscode.window.showInformationMessage('compile suceess')
+                vscode.window.showInformationMessage('suceess')
+            })
+            .catch(err=>{
+                vscode.window.showErrorMessage('fail')
             })
         }
     })
